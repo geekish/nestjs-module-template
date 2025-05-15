@@ -3,6 +3,7 @@ lib
 test
 index.ts
 package-lock.json
+pnpm-lock.yaml
 tslint.json
 tsconfig.json
 .prettierrc

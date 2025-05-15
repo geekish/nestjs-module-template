@@ -1,12 +1,12 @@
 Before you submit your Pull Request (PR) consider the following guidelines:
 
-1. Search [GitHub](https://github.com/toondaey/nestjs-module-boilerplate/pulls) for an open or closed PR
+1. Search [GitHub](https://github.com/geekish/nestjs-module-template/pulls) for an open or closed PR
    that relates to your submission. You don't want to duplicate effort.
-1. Fork the toondaey/nestjs-module-boilerplate.
+1. Fork the geekish/nestjs-module-template.
 1. Make your changes in a new git branch:
 
     ```shell
-    git checkout -b my-fix-branch master
+    git checkout -b my-fix-branch main
     ```
 
 1. Create your patch, **including appropriate test cases**.
@@ -28,7 +28,7 @@ Before you submit your Pull Request (PR) consider the following guidelines:
     git push origin my-fix-branch
     ```
 
-1. In GitHub, send a pull request to `toondaey/nestjs-module-boilerplate:master`.
+1. In GitHub, send a pull request to `geekish/nestjs-module-template:main`.
 
 -   If we suggest changes then:
 
@@ -37,7 +37,7 @@ Before you submit your Pull Request (PR) consider the following guidelines:
     -   Rebase your branch and force push to your GitHub repository (this will update your Pull Request):
 
         ```shell
-        git rebase master -i
+        git rebase main -i
         git push -f
         ```
 
@@ -81,7 +81,7 @@ to read on GitHub as well as in various git tools.
 
 Footer should contain a [closing reference to an issue](https://help.github.com/articles/closing-issues-via-commit-messages/) if any.
 
-Samples: (even more [samples](https://github.com/toondaey/nestjs-module-boilerplate/commits/master))
+Samples: (even more [samples](https://github.com/geekish/nestjs-module-template/commits/main))
 
 ```
 docs(changelog): update change log to beta.5

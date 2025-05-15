@@ -5,13 +5,13 @@ import { ModuleMetadata } from '@nestjs/common/interfaces';
 export type ExampleModuleOptions = Record<string, any>;
 
 export interface ExampleOptionsFactory {
-    createExampleOptions(): ExampleModuleOptions;
+  createExampleOptions(): ExampleModuleOptions;
 }
 
 export interface ExampleModuleAsyncOptions
-    extends Pick<ModuleMetadata, 'imports'> {
-    useClass?: Type<ExampleOptionsFactory>;
-    useExisting?: Type<ExampleOptionsFactory>;
-    useFactory?: (...args: any[]) => ExampleModuleOptions;
-    inject?: any[];
+  extends Pick<ModuleMetadata, 'imports'> {
+  useClass?: Type<ExampleOptionsFactory>;
+  useExisting?: Type<ExampleOptionsFactory>;
+  useFactory?: (...args: any[]) => ExampleModuleOptions;
+  inject?: any[];
 }

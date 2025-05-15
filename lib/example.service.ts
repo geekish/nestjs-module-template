@@ -5,10 +5,10 @@ import { EXAMPLE_OPTIONS_TOKEN } from './example.constants';
 
 @Injectable()
 export class ExampleService {
-    constructor(
-        @Inject(EXAMPLE_OPTIONS_TOKEN)
-        private readonly moduleOptions: ExampleModuleOptions,
-    ) {}
+  constructor(
+    @Inject(EXAMPLE_OPTIONS_TOKEN)
+    private readonly moduleOptions: ExampleModuleOptions,
+  ) { }
 
-    // Class methods and properties...
+  // Class methods and properties...
 }
